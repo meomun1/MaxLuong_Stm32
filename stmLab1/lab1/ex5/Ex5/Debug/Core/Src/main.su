@@ -1,0 +1,10 @@
+main.c:71:5:main	24	static
+main.c:153:6:redOneAndGreenSix	8	static
+main.c:163:6:redOneAndYellowFive	8	static
+main.c:173:6:redFourAndGreenThree	8	static
+main.c:183:6:redFourAndYellowTwo	8	static
+main.c:193:6:display7SEG	16	static
+main.c:253:6:displaySECOND7SEG	16	static
+main.c:316:6:SystemClock_Config	72	static
+main.c:352:13:MX_GPIO_Init	32	static
+main.c:408:6:Error_Handler	4	static,ignoring_inline_asm
