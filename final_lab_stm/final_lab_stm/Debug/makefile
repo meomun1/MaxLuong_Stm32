@@ -64,8 +64,8 @@ all: main-build
 main-build: lab3_git.elf secondary-outputs
 
 # Tool invocations
-lab3_git.elf: $(OBJS) $(USER_OBJS) C:\Users\makid\Downloads\hehe\final_lab_stm-20240527T150302Z-001\final_lab_stm\STM32F103C6UX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "lab3_git.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"C:\Users\makid\Downloads\hehe\final_lab_stm-20240527T150302Z-001\final_lab_stm\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lab3_git.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+lab3_git.elf: $(OBJS) $(USER_OBJS) C:\Users\makid\Downloads\hehe\MaxLuong_Stm32\final_lab_stm\final_lab_stm\STM32F103C6UX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "lab3_git.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"C:\Users\makid\Downloads\hehe\MaxLuong_Stm32\final_lab_stm\final_lab_stm\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lab3_git.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

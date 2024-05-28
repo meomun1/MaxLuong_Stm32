@@ -10,6 +10,7 @@
 int status = INIT;
 
 int count = COUNT;
+int precount = COUNT;
 
 
 

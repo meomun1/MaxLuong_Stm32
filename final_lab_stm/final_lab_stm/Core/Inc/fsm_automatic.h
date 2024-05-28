@@ -12,6 +12,8 @@
 
 void fsm_automatic();
 
-void fsm_button();
+
+void fsm_simple_buttons_run();
+
 
 #endif /* INC_FSM_AUTOMATIC_H_ */

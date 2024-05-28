@@ -106,7 +106,7 @@ int main(void)
   {
 	   fsm_automatic();
 
-	   fsm_button();
+	   fsm_simple_buttons_run();
 //	  SCH_Dispatch_Tasks();
 
     /* USER CODE END WHILE */

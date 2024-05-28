@@ -19,5 +19,6 @@
 
 extern int status;
 extern int count;
+extern int precount;
 
 #endif /* INC_GLOBAL_H_ */

@@ -1,2 +1,2 @@
 fsm_automatic.c:16:6:fsm_automatic	8	static
-fsm_automatic.c:38:6:fsm_button	8	static
+fsm_automatic.c:41:6:fsm_simple_buttons_run	8	static
